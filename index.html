@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./styles/dark.css">
     <link rel="stylesheet" href="./styles/light.css">
   </head>
-  <body class="page theme-dark theme-light theme-auto">
+  <body class="page">
     <header class="header decorated-zone">
       <span class="header__theme-dark-decor" aria-hidden="true">rec</span>
       <nav class="header__theme-menu">
@@ -158,15 +158,27 @@
              </li>
             </ul>
       </div>
-      <div class="main__article main__image-article">
+      <div>
         <h3 class="title-decor">
                 А можно в картинках?
         </h3>
-          <img class="image" src="./images/sunset.png" alt="Закат">
-          <img class="image" src="./images/ice-cream.png" alt="Миска с мороженым">
-          <img class="image" src="./images/tape.png" alt="Кассета">
-          <img class="image" src="./images/books.png" alt="Стопка книг">
-          <img class="image" src="./images/street.png" alt="Улица в сиреневых тонах">
+         <ul class="main__image-block">
+           <li class="main__image-block__item">
+            <img class="image" src="./images/sunset.png" alt="Закат" loading="lazy">
+           </li>
+           <li class="main__image-block__item">
+            <img class="image" src="./images/ice-cream.png" alt="Миска с мороженым" loading="lazy">
+           </li>
+           <li class="main__image-block__item">
+            <img class="image" src="./images/tape.png" alt="Кассета" loading="lazy">
+           </li>
+           <li class="main__image-block__item">
+            <img class="image" src="./images/books.png" alt="Стопка книг" loading="lazy">
+           </li>
+           <li class="main__image-block__item">
+            <img class="image" src="./images/street.png" alt="Улица в сиреневых тонах" loading="lazy">
+           </li>
+         </ul>
         </div>
           
     </main>
