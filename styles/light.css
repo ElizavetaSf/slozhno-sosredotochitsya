@@ -30,6 +30,12 @@
 	color: rgb(255, 194, 230);
 }
 
+@media (width >= 1024px) {
+  .title {
+    text-shadow: 4px 4px 0 rgb(255, 0, 112);
+  }
+}
+
 @media (prefers-color-scheme: light) {
 	.page {
 		--background-color: rgb(255, 241, 247);
@@ -52,4 +58,10 @@
 	.title {
 		color: rgb(255, 194, 230);
 	}
+
+  @media (width >= 1024px) {
+  .title {
+    text-shadow: 4px 4px 0 rgb(255, 0, 112);
+  }
+}
 }
